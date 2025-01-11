@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    overflow: hidden;
+}
+
+img {
+    width: 1400px;
+    height: 700px;
+    object-fit: cover;
+    filter: grayscale(80%);
+}
+
+@media screen and (max-width: 450px) {
+    img {
+        height: 1040px;
+        width: 440px;
+        object-fit: cover;
+        filter: blur(3px);
+    }
+
+    .main {
+        margin: 440px;
+    }
+}
+
+
+
+.main {
+    width: 320px;
+    height: 450px;
+    margin-top: -770px;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(80%);
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.name {
+    margin-top: -27px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.musicname {
+    margin-top: -20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.artistname {
+    margin-top: -25px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.musiccontrols {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
