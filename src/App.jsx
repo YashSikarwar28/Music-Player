@@ -69,6 +69,71 @@ const App = () => {
     songname:"Victory Anthem",
     singername:"Khushi",
     songimg:"./Assests/Images/victory.jpg"
+  },{
+    songaudio : "./Assests/Songs/295.mp3",
+    songname:"295",
+    singername:"Sidhu Moosewala",
+    songimg:"./Assests/Images/295.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Deva Deva.mp3",
+    songname:"Deva Deva",
+    singername:"Arjit Singh",
+    songimg:"./Assests/Images/Deva.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Elevated.mp3",
+    songname:"Elevated",
+    singername:"Shubh",
+    songimg:"./Assests/Images/elevated.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Excuses.mp3",
+    songname:"Excuses",
+    singername:"AP Dhillon",
+    songimg:"./Assests/Images/excuses.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/GOAT.mp3",
+    songname:"GOAT",
+    singername:"Diljit Dosanj",
+    songimg:"./Assests/Images/goat.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Interstellar.mp3",
+    songname:"Interstellar",
+    singername:"Murphy",
+    songimg:"./Assests/Images/interstellar.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Kale De Libaas.mp3",
+    songname:"Kale Je Libaas",
+    singername:"Kaka",
+    songimg:"./Assests/Images/Kale-Je-Libaas.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Khariyat.mp3",
+    songname:"Khariyat",
+    singername:"Arjit Singh",
+    songimg:"./Assests/Images/Khariyat.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Love Story (Audio).mp3",
+    songname:"Love Story(Audio)",
+    singername:"Indila",
+    songimg:"./Assests/Images/Lovestory.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/One Love.mp3",
+    songname:"One Love",
+    singername:"Shubh",
+    songimg:"./Assests/Images/one love.jpg"
+  },
+  {
+    songaudio : "./Assests/Songs/Suniyan Suniyan.mp3",
+    songname:"Suniyan Suniyan",
+    singername:"Jass",
+    songimg:"./Assests/Images/Suniyan-Suniyan.jpg"
   }
 ]
 
